@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../Assets/logo-1.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("shop");
@@ -19,33 +20,49 @@ export const Navbar = () => {
             setMenu("shop");
           }}
         >
-          Shop {menu === "shop" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/">
+            Shop
+          </Link>
+          {menu === "shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("headsets");
           }}
         >
-          Headsets {menu === "headsets" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/headsets">
+            Headsets
+          </Link>
+          {menu === "headsets" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("keyboards");
           }}
         >
-          Keyboards {menu === "keyboards" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/keyboards">
+            Keyboards
+          </Link>
+          {menu === "keyboards" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("mice");
           }}
         >
-          Mice {menu === "mice" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/mice">
+            Mice
+          </Link>
+          {menu === "mice" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
-        <FaShoppingCart size={35} />
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/cart">
+          <FaShoppingCart size={35} />
+        </Link>
         <div className="nav-cart-count">0</div>
       </div>
     </div>
