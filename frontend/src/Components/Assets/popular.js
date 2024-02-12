@@ -10,7 +10,8 @@ let popular = [
     brand: "Logitech",
     category: "mouse",
     image: [g_pro_superlight_1],
-    price: 200,
+    new_price: null,
+    old_price: 219.99,
   },
   {
     id: 2,
@@ -18,7 +19,8 @@ let popular = [
     brand: "Razer",
     category: "mouse",
     image: [deathadder_v3_pro_1],
-    price: 200,
+    new_price: null,
+    old_price: 189.99,
   },
   {
     id: 3,
@@ -26,7 +28,8 @@ let popular = [
     brand: "Razer",
     category: "mouse",
     image: [viper_v2_pro_1],
-    price: 200,
+    new_price: null,
+    old_price: 189.99,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ let popular = [
     brand: "HyperX",
     category: "headset",
     image: [cloud3_wireless_1],
-    price: 200,
+    new_price: 194.99,
+    old_price: 213.99,
   },
 ];
