@@ -20,7 +20,7 @@ export const Navbar = () => {
             setMenu("shop");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/">
+          <Link to="/" className="custom-link">
             Shop
           </Link>
           {menu === "shop" ? <hr /> : <></>}
@@ -30,7 +30,7 @@ export const Navbar = () => {
             setMenu("headsets");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/headsets">
+          <Link to="/headsets" className="custom-link">
             Headsets
           </Link>
           {menu === "headsets" ? <hr /> : <></>}
@@ -40,7 +40,7 @@ export const Navbar = () => {
             setMenu("keyboards");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/keyboards">
+          <Link to="/keyboards" className="custom-link">
             Keyboards
           </Link>
           {menu === "keyboards" ? <hr /> : <></>}
@@ -50,7 +50,7 @@ export const Navbar = () => {
             setMenu("mice");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/mice">
+          <Link to="/mice" className="custom-link">
             Mice
           </Link>
           {menu === "mice" ? <hr /> : <></>}
@@ -60,7 +60,7 @@ export const Navbar = () => {
         <Link to="/login">
           <button>Login</button>
         </Link>
-        <Link to="/cart">
+        <Link to="/cart" className="custom-link">
           <FaShoppingCart size={35} />
         </Link>
         <div className="nav-cart-count">0</div>
