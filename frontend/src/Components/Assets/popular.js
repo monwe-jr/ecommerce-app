@@ -3,7 +3,7 @@ import deathadder_v3_pro_1 from "./razer-deathadder-v3-pro.png";
 import g_pro_superlight_1 from "./logitech-g-pro-x-superlight.png";
 import cloud3_wireless_1 from "./hyperx-cloud-3-wireless.png";
 
-let popular = [
+let popular_products = [
   {
     id: 1,
     name: "Logitech G Pro X Superlight",
@@ -41,3 +41,5 @@ let popular = [
     old_price: 213.99,
   },
 ];
+
+export default popular_products;
