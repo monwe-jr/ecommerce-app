@@ -23,18 +23,18 @@ import arctis1_1 from "./steelseries-arctis-1.png";
 let products = [
   {
     id: 1,
-    name: "Razer Deathadder V3 Pro",
-    brand: "Razer",
-    category: "mouse",
-    image: [deathadder_v3_pro_1],
-    price: 200,
-  },
-  {
-    id: 2,
     name: "Logitech G Pro X Superlight",
     brand: "Logitech",
     category: "mouse",
     image: [g_pro_superlight_1],
+    price: 200,
+  },
+  {
+    id: 2,
+    name: "Razer Deathadder V3 Pro",
+    brand: "Razer",
+    category: "mouse",
+    image: [deathadder_v3_pro_1],
     price: 200,
   },
   {
