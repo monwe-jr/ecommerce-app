@@ -31,7 +31,7 @@ let products = [
     brand: "Logitech",
     category: "mouse",
     image: [g_pro_superlight_1],
-    new_price: 199.99,
+    new_price: 197.99,
     old_price: 219.99,
   },
   {
@@ -59,7 +59,7 @@ let products = [
     category: "headset",
     image: [cloud3_wireless_1],
     new_price: 194.99,
-    old_price: 213.99,
+    old_price: 227.99,
   },
   {
     id: 5,
