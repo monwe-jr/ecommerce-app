@@ -10,7 +10,7 @@ let popular_products = [
     brand: "Logitech",
     category: "mouse",
     image: [g_pro_superlight_1],
-    new_price: null,
+    new_price: 199.99,
     old_price: 219.99,
   },
   {

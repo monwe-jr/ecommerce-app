@@ -18,7 +18,11 @@ import corsair_k70_1 from "./corsair-k70-bluetooth.png";
 import astro_a50_1 from "./astro-gaming-a50.png";
 import ducky_3_1 from "./ducky-one-3.png";
 import k530_pro_draconic_1 from "./redragon-k530-pro-draconic.png";
-import arctis1_1 from "./steelseries-arctis-1.png";
+import arctis_1_1 from "./steelseries-arctis-1.png";
+import g_pro_superlight_2_1 from "./logitech-g-pro-x-superlight-2.png";
+import viper_v3_1 from "./razer-viper-v3-hyperspeed.png";
+import virtuoso_se_1 from "./corsair-virtuoso-rgb-wireless-se.png";
+import arctis_nova_pro_1 from "./steelseries-arctis-nova-pro.png";
 
 let products = [
   {
@@ -27,7 +31,7 @@ let products = [
     brand: "Logitech",
     category: "mouse",
     image: [g_pro_superlight_1],
-    new_price: null,
+    new_price: 199.99,
     old_price: 219.99,
   },
   {
@@ -167,10 +171,10 @@ let products = [
   },
   {
     id: 17,
-    name: "Steelseries Arctis 1",
-    brand: "Steelseries",
+    name: "SteelSeries Arctis 1",
+    brand: "SteelSeries",
     category: "headset",
-    image: [arctis1_1],
+    image: [arctis_1_1],
     new_price: 79.99,
     old_price: 119.99,
   },
@@ -209,5 +213,41 @@ let products = [
     image: [corsair_k60_rgb_1],
     new_price: 95.99,
     old_price: 149.99,
+  },
+  {
+    id: 22,
+    name: "Logitech G Pro X Superlight 2",
+    brand: "Logitech",
+    category: "mouse",
+    image: [g_pro_superlight_2_1],
+    new_price: null,
+    old_price: 219.99,
+  },
+  {
+    id: 23,
+    name: "Razer Viper V3 Hyperspeed",
+    brand: "Razer",
+    category: "mouse",
+    image: [viper_v3_1],
+    new_price: null,
+    old_price: 99.99,
+  },
+  {
+    id: 24,
+    name: "Corsair Virtuoso RGB Wireless SE",
+    brand: "Corsair",
+    category: "headset",
+    image: [virtuoso_se_1],
+    new_price: null,
+    old_price: 339.99,
+  },
+  {
+    id: 25,
+    name: "SteelSeries Arctis Nova Pro",
+    brand: "SteelSeries",
+    category: "headset",
+    image: [arctis_nova_pro_1],
+    new_price: null,
+    old_price: 449.99,
   },
 ];
