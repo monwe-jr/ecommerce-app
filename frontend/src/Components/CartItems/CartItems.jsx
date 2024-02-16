@@ -24,11 +24,13 @@ export const CartItems = () => {
               <div className="cartitems-format">
                 <img src={e.image} alt="" className="carticon-product-icon" />
                 <p>{e.name}</p>
-                <p>${e.price}</p>
+                <p>${e.new_price ? e.new_price : e.old_price}</p>
                 <button className="cartitems-quantity">
                   {cartItems[e.id]}
                 </button>
-                <p>{e.new_price * cartItems[e.id]}</p>
+                <p>
+                  {(e.new_price ? e.new_price : e.old_price) * cartItems[e.id]}
+                </p>
                 <img
                   src={remove_icon}
                   onClick={() => {
