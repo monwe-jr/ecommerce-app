@@ -63,7 +63,7 @@ export const CartItems = () => {
             <hr />
             <div className="cartitems-total-price">
               <h3>Total</h3>
-              <h3>${getTotalCartAmount() * 1.13}</h3>
+              <h3>${(getTotalCartAmount() * 1.13).toFixed(2)}</h3>
             </div>
           </div>
           <button>PROCEED TO CHECKOUT</button>
