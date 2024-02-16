@@ -11,7 +11,7 @@ export const Item = (props) => {
       <p>{props.name}</p>
       <div className="item-prices">
         <div className="item-price">
-          {props.new_price !== null ? `${props.new_price}` : null}
+          {props.new_price !== null ? `$${props.new_price}` : null}
         </div>
         <div
           className={
