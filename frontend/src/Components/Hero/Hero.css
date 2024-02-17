@@ -56,4 +56,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 300px;
+}
+
+.right-img {
+  height: 100%;
+  width: auto;
+}
+
+.middle-img {
+  width: auto;
+  height: 50%;
 }
