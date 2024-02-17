@@ -1,22 +1,22 @@
 import React from "react";
 import "./Hero.css";
 import { FaArrowRight } from "react-icons/fa";
-import hand_icon from "../Assets/hand-icon.png";
+import level_icon from "../Assets/level-up.png";
 import hero_image from "../Assets/new-arrival.png";
-import middle_image from "../Assets/middle-image.png";
 
 export const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <h2>NEW ARRIVALS ONLY</h2>
+        <h2>NEW GEAR</h2>
         <div>
-          <div className="hero-hand-icon">
-            <p>new</p>
-            <img src={hand_icon} alt="" />
+          <p>Game</p>
+          <div className="hero-icon">
+            <p>With </p>
+            <img src={level_icon} alt="" />
           </div>
-          <p>products</p>
-          <p>for everyone</p>
+
+          <p>The Best!</p>
         </div>
         <div className="hero-latest-button">
           <div>Latest Products</div>
@@ -24,8 +24,7 @@ export const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img className="middle-img" src={middle_image} alt="" />
-        <img className="right-img" src={hero_image} alt="" />
+        <img src={hero_image} alt="" />
       </div>
     </div>
   );
