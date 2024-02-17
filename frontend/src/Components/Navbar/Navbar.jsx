@@ -1,14 +1,21 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import "./Navbar.css";
 import logo from "../Assets/logo-1.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
+import { FaArrowCircleDown } from "react-icons/fa";
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   const { getTotalCartItems } = useContext(ShopContext);
+  const menuRef = useRef();
+
+  const toggleDropDown = (e) => {
+    menuRef.current.classList.toggle("nav-menu-visible");
+    e.currentTarget.classList.toggle("open");
+  };
 
   return (
     <div className="navbar">
@@ -16,7 +23,12 @@ export const Navbar = () => {
         <img src={logo} alt="" className="logo" />
         <p>GAMEGEAR</p>
       </div>
-      <ul className="nav-menu">
+      <FaArrowCircleDown
+        className="nav-dropdown"
+        size={40}
+        onClick={toggleDropDown}
+      />
+      <ul ref={menuRef} className="nav-menu">
         <li
           onClick={() => {
             setMenu("shop");
