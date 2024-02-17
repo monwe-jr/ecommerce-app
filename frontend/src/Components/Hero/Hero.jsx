@@ -3,6 +3,7 @@ import "./Hero.css";
 import { FaArrowRight } from "react-icons/fa";
 import hand_icon from "../Assets/hand-icon.png";
 import hero_image from "../Assets/new-arrival.png";
+import middle_image from "../Assets/middle-image.png";
 
 export const Hero = () => {
   return (
@@ -23,7 +24,8 @@ export const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img src={hero_image} alt="" />
+        <img className="middle-img" src={middle_image} alt="" />
+        <img className="right-img" src={hero_image} alt="" />
       </div>
     </div>
   );
