@@ -46,7 +46,23 @@ const ShopContextProvider = (props) => {
     return totalItem;
   };
 
+  const getCategoryCount = (category) => {
+    let totalProducts = 0;
+    for (const item of products) {
+      if (item.category === category) {
+        totalProducts += 1;
+      }
+    }
+    return totalProducts;
+  };
+
+  const getProductCount = () => {
+    return products.length;
+  };
+
   const contextValue = {
+    getProductCount,
+    getCategoryCount,
     getTotalCartItems,
     getTotalCartAmount,
     products,

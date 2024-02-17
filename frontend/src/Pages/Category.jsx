@@ -5,13 +5,15 @@ import drop_down from "../Components/Assets/drop-down.png";
 import { Item } from "../Components/Item/Item";
 
 export const Category = (props) => {
-  const { products } = useContext(ShopContext);
+  const { getProductCount, getCategoryCount, products } =
+    useContext(ShopContext);
   return (
     <div className="category">
       <img className="category-banner" src={props.banner} alt="" />
       <div className="category-indexSort">
         <p>
-          <span>Showing 1-12</span> out of 25 products
+          <span>Showing 1-{getCategoryCount(props.category)}</span> out of{" "}
+          {getProductCount()} products
         </p>
         <div className="category-sort">
           Sort by <img className="drop-down" src={drop_down} alt="" />
