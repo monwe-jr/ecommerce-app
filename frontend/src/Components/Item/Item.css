@@ -42,7 +42,8 @@
     width: 220px;
   }
 
-  .item-price .with-line-through {
+  .item-price,
+  .item-price.with-line-through {
     font-size: 14px;
   }
 }
@@ -57,7 +58,8 @@
     width: 170px;
   }
 
-  .item-price .with-line-through {
+  .item-price,
+  .item-price.with-line-through {
     font-size: 13px;
   }
 }
@@ -72,7 +74,8 @@
     width: 120px;
   }
 
-  .item-price .with-line-through {
+  .item-price,
+  .item-price.with-line-through {
     font-size: 12px;
   }
 }
