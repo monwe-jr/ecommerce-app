@@ -7,7 +7,6 @@ import linkedin_icon from "../Assets/linkedin-icon.png";
 export const Footer = () => {
   return (
     <div className="footer">
-      <hr />
       <div className="footer-logo">
         <img src={logo} alt="" />
         <p>GAMEGEAR</p>
