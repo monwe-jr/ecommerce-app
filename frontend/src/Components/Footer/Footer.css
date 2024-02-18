@@ -4,14 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-}
-
-.footer hr {
-  width: 80%;
-  border: none;
-  border-radius: 10px;
-  height: 3px;
-  background: #c7c7c7;
+  margin-bottom: 50px;
 }
 
 .footer-logo {
@@ -46,5 +39,24 @@
 
 .footer-contact-icons img {
   width: 25px;
-  hyphens: 25px;
+  height: 25px;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    gap: 20px;
+  }
+
+  .footer-logo {
+    gap: 10px;
+  }
+
+  .footer-logo p {
+    font-size: 25px;
+  }
+
+  .footer-contact-icons img {
+    width: 22px;
+    height: 22px;
+  }
 }
