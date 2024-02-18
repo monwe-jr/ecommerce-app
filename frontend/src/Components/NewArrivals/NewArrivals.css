@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .new-arrivals h1 {
@@ -24,4 +24,79 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 50px;
   gap: 30px;
+}
+
+@media (max-width: 1280px) {
+  .new-arrivals {
+    height: 32vh;
+    margin-bottom: 350px;
+  }
+
+  .new-arrivals h1 {
+    font-size: 40px;
+  }
+
+  .new-arrivals hr {
+    width: 160px;
+    height: 4px;
+  }
+
+  .arrivals {
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .new-arrivals {
+    height: 26vh;
+    margin-bottom: 300px;
+  }
+
+  .new-arrivals h1 {
+    font-size: 30px;
+  }
+
+  .new-arrivals hr {
+    width: 120px;
+    height: 3px;
+  }
+
+  .arrivals {
+    gap: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .new-arrivals {
+    height: 20vh;
+    gap: 6px;
+    margin-bottom: 220px;
+  }
+
+  .new-arrivals h1 {
+    font-size: 20px;
+  }
+
+  .new-arrivals hr {
+    width: 100px;
+  }
+
+  .arrivals {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .new-arrivals {
+    height: 40vh;
+    margin-bottom: 520px;
+  }
+
+  .arrivals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
