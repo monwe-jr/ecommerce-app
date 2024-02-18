@@ -1,8 +1,8 @@
 .category-banner {
   display: block;
   margin: 30px auto;
-  width: 70%;
-  height: 25vh;
+  width: 90%;
+  height: 38vh;
 }
 
 .category-indexSort {
@@ -52,14 +52,19 @@
   .category-banner {
     margin: 20px auto;
     width: 90%;
-    height: 20vh;
+    height: 25vh;
+  }
+
+  .category-indexSort {
+    width: 90%;
+    margin: auto;
   }
 }
 
 @media (max-width: 800px) {
   .category-banner {
     margin: 20px auto;
-    height: 15vh;
+    height: 18vh;
   }
 }
 
