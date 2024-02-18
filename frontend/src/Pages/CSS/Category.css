@@ -2,7 +2,7 @@
   display: block;
   margin: 30px auto;
   width: 70%;
-  height: 37vh;
+  height: 25vh;
 }
 
 .category-indexSort {
@@ -46,4 +46,26 @@
   color: #787878;
   font-size: 18px;
   font-weight: 500;
+}
+
+@media (max-width: 1280px) {
+  .category-banner {
+    margin: 20px auto;
+    width: 90%;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .category-banner {
+    margin: 20px auto;
+    height: 15vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .category-banner {
+    margin: 20px auto;
+    height: 15vh;
+  }
 }
