@@ -56,3 +56,8 @@
   outline: none;
   cursor: pointer;
 }
+
+.productdisplay-right-description {
+  width: 500px;
+  height: auto;
+}

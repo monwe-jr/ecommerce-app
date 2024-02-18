@@ -31,7 +31,7 @@ export const ProductDisplay = (props) => {
           )}
         </div>
         <div className="productdisplay-right-description">
-          Good gaming product
+          {product.description}
         </div>
         <button
           onClick={() => {
