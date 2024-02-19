@@ -11,7 +11,7 @@ export const LoginRegister = () => {
           <input type="email" placeholder="Email Address" />
           <input type="password" placeholder="Password" />
         </div>
-        <button>Continue</button>
+        <button>Register</button>
         <p className="login-register-login">
           Already have an account? <span>Login here</span>
         </p>
