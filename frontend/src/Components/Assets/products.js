@@ -30,7 +30,7 @@ let products = [
     name: "Logitech G Pro X Superlight",
     brand: "Logitech",
     category: "mouse",
-    image: [g_pro_superlight_1],
+    image: g_pro_superlight_1,
     new_price: 197.99,
     old_price: 219.99,
     description:
@@ -41,7 +41,7 @@ let products = [
     name: "Razer Deathadder V3 Pro",
     brand: "Razer",
     category: "mouse",
-    image: [deathadder_v3_pro_1],
+    image: deathadder_v3_pro_1,
     new_price: null,
     old_price: 189.99,
     description:
@@ -52,7 +52,7 @@ let products = [
     name: "Razer Viper V2 Pro",
     brand: "Razer",
     category: "mouse",
-    image: [viper_v2_pro_1],
+    image: viper_v2_pro_1,
     new_price: null,
     old_price: 189.99,
     description:
@@ -63,7 +63,7 @@ let products = [
     name: "HyperX Cloud III Wireless",
     brand: "HyperX",
     category: "headset",
-    image: [cloud3_wireless_1],
+    image: cloud3_wireless_1,
     new_price: 194.99,
     old_price: 227.99,
     description:
@@ -74,7 +74,7 @@ let products = [
     name: "Logitech G Pro X Lightspeed",
     brand: "Logitech",
     category: "headset",
-    image: [g_pro_wireless_1],
+    image: g_pro_wireless_1,
     new_price: null,
     old_price: 249.99,
     description:
@@ -85,7 +85,7 @@ let products = [
     name: "Corsair HS55 Wireless",
     brand: "Corsair",
     category: "headset",
-    image: [corsair_hs55_1],
+    image: corsair_hs55_1,
     new_price: 99.99,
     old_price: 134.99,
     description:
@@ -96,7 +96,7 @@ let products = [
     name: "Razer Barracuda X Plus",
     brand: "Razer",
     category: "headset",
-    image: [barracuda_x_plus_1],
+    image: barracuda_x_plus_1,
     new_price: null,
     old_price: 124.99,
     description:
@@ -107,7 +107,7 @@ let products = [
     name: "Astro Gaming A50",
     brand: "Astro",
     category: "headset",
-    image: [astro_a50_1],
+    image: astro_a50_1,
     new_price: null,
     old_price: 399.99,
     description:
@@ -118,7 +118,7 @@ let products = [
     name: "Razer Huntsman Mini",
     brand: "Razer",
     category: "keyboard",
-    image: [huntsman_mini_1],
+    image: huntsman_mini_1,
     new_price: 159.99,
     old_price: 174.99,
     description:
@@ -129,7 +129,7 @@ let products = [
     name: "Corsair K70 Mini",
     brand: "Corsair",
     category: "keyboard",
-    image: [corsair_k70_1],
+    image: corsair_k70_1,
     new_price: 199.99,
     old_price: 260,
     description:
@@ -140,7 +140,7 @@ let products = [
     name: "Razer Blackshark V2 Pro",
     brand: "Razer",
     category: "headset",
-    image: [blackshark_1],
+    image: blackshark_1,
     new_price: 179.99,
     old_price: 274.99,
     description:
@@ -151,7 +151,7 @@ let products = [
     name: "Logitech G305 Wireless",
     brand: "Logitech",
     category: "mouse",
-    image: [logitech_g305_wireless_1],
+    image: logitech_g305_wireless_1,
     new_price: null,
     old_price: 59.99,
     description:
@@ -162,7 +162,7 @@ let products = [
     name: "Logitech G432",
     brand: "Logitech",
     category: "headset",
-    image: [logitech_g432_1],
+    image: logitech_g432_1,
     new_price: 69.99,
     old_price: 99.99,
     description:
@@ -173,7 +173,7 @@ let products = [
     name: "Redragon K530 Pro Draconic",
     brand: "Redragon",
     category: "keyboard",
-    image: [k530_pro_draconic_1],
+    image: k530_pro_draconic_1,
     new_price: 79.99,
     old_price: 84.99,
     description:
@@ -184,7 +184,7 @@ let products = [
     name: "Logitech G502 Lightspeed",
     brand: "Logitech",
     category: "mouse",
-    image: [logitech_g502_wireless_1],
+    image: logitech_g502_wireless_1,
     new_price: 169.99,
     old_price: 199.99,
     description:
@@ -195,7 +195,7 @@ let products = [
     name: "Ducky One 3",
     brand: "Ducky",
     category: "keyboard",
-    image: [ducky_3_1],
+    image: ducky_3_1,
     new_price: null,
     old_price: 184.99,
     description:
@@ -206,7 +206,7 @@ let products = [
     name: "SteelSeries Arctis 1",
     brand: "SteelSeries",
     category: "headset",
-    image: [arctis_1_1],
+    image: arctis_1_1,
     new_price: 79.99,
     old_price: 119.99,
     description:
@@ -217,7 +217,7 @@ let products = [
     name: "Logitech G915 TKL Lightspeed",
     brand: "Logitech",
     category: "keyboard",
-    image: [logitech_g915_tkl_wireless_1],
+    image: logitech_g915_tkl_wireless_1,
     new_price: null,
     old_price: 319.99,
     description:
@@ -228,7 +228,7 @@ let products = [
     name: "Corsair K100 RGB Optical-Mechanical Gaming Keyboard",
     brand: "Corsair",
     category: "keyboard",
-    image: [corsair_k100_1],
+    image: corsair_k100_1,
     new_price: null,
     old_price: 349.99,
     description:
@@ -239,7 +239,7 @@ let products = [
     name: "HyperX Pulsefire Haste",
     brand: "HyperX",
     category: "mouse",
-    image: [pulsefire_haste_1],
+    image: pulsefire_haste_1,
     new_price: 89.99,
     old_price: 100,
     description:
@@ -250,7 +250,7 @@ let products = [
     name: "Corsair K60 RGB Pro",
     brand: "Corsair",
     category: "keyboard",
-    image: [corsair_k60_rgb_1],
+    image: corsair_k60_rgb_1,
     new_price: 95.99,
     old_price: 149.99,
     description:
@@ -261,7 +261,7 @@ let products = [
     name: "Logitech G Pro X Superlight 2",
     brand: "Logitech",
     category: "mouse",
-    image: [g_pro_superlight_2_1],
+    image: g_pro_superlight_2_1,
     new_price: null,
     old_price: 219.99,
     description:
@@ -272,7 +272,7 @@ let products = [
     name: "Razer Viper V3 Hyperspeed",
     brand: "Razer",
     category: "mouse",
-    image: [viper_v3_1],
+    image: viper_v3_1,
     new_price: null,
     old_price: 99.99,
     description:
@@ -283,7 +283,7 @@ let products = [
     name: "Corsair Virtuoso RGB Wireless SE",
     brand: "Corsair",
     category: "headset",
-    image: [virtuoso_se_1],
+    image: virtuoso_se_1,
     new_price: null,
     old_price: 339.99,
     description:
@@ -294,7 +294,7 @@ let products = [
     name: "SteelSeries Arctis Nova Pro",
     brand: "SteelSeries",
     category: "headset",
-    image: [arctis_nova_pro_1],
+    image: arctis_nova_pro_1,
     new_price: null,
     old_price: 449.99,
     description:
