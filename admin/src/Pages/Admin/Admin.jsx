@@ -1,6 +1,11 @@
 import React from "react";
 import "./Admin.css";
+import { Sidebar } from "../../Components/Sidebar/Sidebar";
 
 export const Admin = () => {
-  return <div className="admin"></div>;
+  return (
+    <div className="admin">
+      <Sidebar />
+    </div>
+  );
 };
