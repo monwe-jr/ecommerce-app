@@ -77,7 +77,7 @@ const Product = mongoose.model("Product", {
     type: Date,
     default: Date.now,
   },
-  avalaible: {
+  available: {
     type: Boolean,
     default: true,
   },
@@ -102,6 +102,7 @@ app.post("/addproduct", async (req, res) => {
     category: req.body.category,
     new_price: req.body.new_price,
     old_price: req.body.old_price,
+    description: req.body.description,
   });
   console.log(product);
   await product.save();
