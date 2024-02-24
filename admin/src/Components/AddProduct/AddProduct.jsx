@@ -57,6 +57,7 @@ export const AddProduct = () => {
           data.success ? alert("Product Added") : alert("Failed");
         });
     }
+    window.location.reload();
   };
 
   return (

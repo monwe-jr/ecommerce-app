@@ -28,7 +28,6 @@ let products = [
   {
     id: 1,
     name: "Logitech G Pro X Superlight",
-    brand: "Logitech",
     category: "mouse",
     image: g_pro_superlight_1,
     new_price: 197.99,
@@ -39,7 +38,6 @@ let products = [
   {
     id: 2,
     name: "Razer Deathadder V3 Pro",
-    brand: "Razer",
     category: "mouse",
     image: deathadder_v3_pro_1,
     new_price: null,
@@ -50,7 +48,6 @@ let products = [
   {
     id: 3,
     name: "Razer Viper V2 Pro",
-    brand: "Razer",
     category: "mouse",
     image: viper_v2_pro_1,
     new_price: null,
@@ -61,7 +58,6 @@ let products = [
   {
     id: 4,
     name: "HyperX Cloud III Wireless",
-    brand: "HyperX",
     category: "headset",
     image: cloud3_wireless_1,
     new_price: 194.99,
@@ -72,7 +68,6 @@ let products = [
   {
     id: 5,
     name: "Logitech G Pro X Lightspeed",
-    brand: "Logitech",
     category: "headset",
     image: g_pro_wireless_1,
     new_price: null,
@@ -83,7 +78,6 @@ let products = [
   {
     id: 6,
     name: "Corsair HS55 Wireless",
-    brand: "Corsair",
     category: "headset",
     image: corsair_hs55_1,
     new_price: 99.99,
@@ -94,7 +88,6 @@ let products = [
   {
     id: 7,
     name: "Razer Barracuda X Plus",
-    brand: "Razer",
     category: "headset",
     image: barracuda_x_plus_1,
     new_price: null,
@@ -105,7 +98,6 @@ let products = [
   {
     id: 8,
     name: "Astro Gaming A50",
-    brand: "Astro",
     category: "headset",
     image: astro_a50_1,
     new_price: null,
@@ -116,7 +108,6 @@ let products = [
   {
     id: 9,
     name: "Razer Huntsman Mini",
-    brand: "Razer",
     category: "keyboard",
     image: huntsman_mini_1,
     new_price: 159.99,
@@ -127,7 +118,6 @@ let products = [
   {
     id: 10,
     name: "Corsair K70 Mini",
-    brand: "Corsair",
     category: "keyboard",
     image: corsair_k70_1,
     new_price: 199.99,
@@ -138,7 +128,6 @@ let products = [
   {
     id: 11,
     name: "Razer Blackshark V2 Pro",
-    brand: "Razer",
     category: "headset",
     image: blackshark_1,
     new_price: 179.99,
@@ -149,7 +138,6 @@ let products = [
   {
     id: 12,
     name: "Logitech G305 Wireless",
-    brand: "Logitech",
     category: "mouse",
     image: logitech_g305_wireless_1,
     new_price: null,
@@ -160,7 +148,6 @@ let products = [
   {
     id: 13,
     name: "Logitech G432",
-    brand: "Logitech",
     category: "headset",
     image: logitech_g432_1,
     new_price: 69.99,
@@ -171,7 +158,6 @@ let products = [
   {
     id: 14,
     name: "Redragon K530 Pro Draconic",
-    brand: "Redragon",
     category: "keyboard",
     image: k530_pro_draconic_1,
     new_price: 79.99,
@@ -182,7 +168,6 @@ let products = [
   {
     id: 15,
     name: "Logitech G502 Lightspeed",
-    brand: "Logitech",
     category: "mouse",
     image: logitech_g502_wireless_1,
     new_price: 169.99,
@@ -193,7 +178,6 @@ let products = [
   {
     id: 16,
     name: "Ducky One 3",
-    brand: "Ducky",
     category: "keyboard",
     image: ducky_3_1,
     new_price: null,
@@ -204,7 +188,6 @@ let products = [
   {
     id: 17,
     name: "SteelSeries Arctis 1",
-    brand: "SteelSeries",
     category: "headset",
     image: arctis_1_1,
     new_price: 79.99,
@@ -215,7 +198,6 @@ let products = [
   {
     id: 18,
     name: "Logitech G915 TKL Lightspeed",
-    brand: "Logitech",
     category: "keyboard",
     image: logitech_g915_tkl_wireless_1,
     new_price: null,
@@ -226,7 +208,6 @@ let products = [
   {
     id: 19,
     name: "Corsair K100 RGB Optical-Mechanical Gaming Keyboard",
-    brand: "Corsair",
     category: "keyboard",
     image: corsair_k100_1,
     new_price: null,
@@ -237,7 +218,6 @@ let products = [
   {
     id: 20,
     name: "HyperX Pulsefire Haste",
-    brand: "HyperX",
     category: "mouse",
     image: pulsefire_haste_1,
     new_price: 89.99,
@@ -248,7 +228,6 @@ let products = [
   {
     id: 21,
     name: "Corsair K60 RGB Pro",
-    brand: "Corsair",
     category: "keyboard",
     image: corsair_k60_rgb_1,
     new_price: 95.99,
@@ -259,7 +238,6 @@ let products = [
   {
     id: 22,
     name: "Logitech G Pro X Superlight 2",
-    brand: "Logitech",
     category: "mouse",
     image: g_pro_superlight_2_1,
     new_price: null,
@@ -270,7 +248,6 @@ let products = [
   {
     id: 23,
     name: "Razer Viper V3 Hyperspeed",
-    brand: "Razer",
     category: "mouse",
     image: viper_v3_1,
     new_price: null,
@@ -281,7 +258,6 @@ let products = [
   {
     id: 24,
     name: "Corsair Virtuoso RGB Wireless SE",
-    brand: "Corsair",
     category: "headset",
     image: virtuoso_se_1,
     new_price: null,
@@ -292,7 +268,6 @@ let products = [
   {
     id: 25,
     name: "SteelSeries Arctis Nova Pro",
-    brand: "SteelSeries",
     category: "headset",
     image: arctis_nova_pro_1,
     new_price: null,

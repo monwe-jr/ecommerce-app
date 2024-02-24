@@ -11,7 +11,6 @@ let new_arrivals = [
   {
     id: 16,
     name: "Ducky One 3",
-    brand: "Ducky",
     category: "keyboard",
     image: ducky_3_1,
     new_price: null,
@@ -20,7 +19,6 @@ let new_arrivals = [
   {
     id: 12,
     name: "Logitech G305 Wireless",
-    brand: "Logitech",
     category: "mouse",
     image: logitech_g305_wireless_1,
     new_price: null,
@@ -29,7 +27,6 @@ let new_arrivals = [
   {
     id: 8,
     name: "Astro Gaming A50",
-    brand: "Astro",
     category: "headset",
     image: astro_a50_1,
     new_price: null,
@@ -38,7 +35,6 @@ let new_arrivals = [
   {
     id: 19,
     name: "Corsair K100 RGB Optical-Mechanical Gaming Keyboard",
-    brand: "Corsair",
     category: "keyboard",
     image: corsair_k100_1,
     new_price: null,
@@ -47,7 +43,6 @@ let new_arrivals = [
   {
     id: 22,
     name: "Logitech G Pro X Superlight 2",
-    brand: "Logitech",
     category: "mouse",
     image: g_pro_superlight_2_1,
     new_price: null,
@@ -56,7 +51,6 @@ let new_arrivals = [
   {
     id: 23,
     name: "Razer Viper V3 Hyperspeed",
-    brand: "Razer",
     category: "mouse",
     image: viper_v3_1,
     new_price: null,
@@ -65,7 +59,6 @@ let new_arrivals = [
   {
     id: 24,
     name: "Corsair Virtuoso RGB Wireless SE",
-    brand: "Corsair",
     category: "headset",
     image: virtuoso_se_1,
     new_price: null,
@@ -74,7 +67,6 @@ let new_arrivals = [
   {
     id: 25,
     name: "SteelSeries Arctis Nova Pro",
-    brand: "SteelSeries",
     category: "headset",
     image: arctis_nova_pro_1,
     new_price: null,
