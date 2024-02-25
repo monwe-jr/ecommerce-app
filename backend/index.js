@@ -210,6 +210,64 @@ app.get("/newarrivals", async (req, res) => {
   res.send(newarrivals);
 });
 
+//Best Sellers Endpoint
+app.get("/bestsellers", async (req, res) => {
+  let products = await Product.find({});
+  let bestsellers = products.slice(0, 4);
+  console.log("Best Sellers Fetched");
+  res.send(bestsellers);
+});
+
+//Helper function to fetch user
+const fetchUser = async (req, res, next) => {
+  const token = req.header("aut-token");
+  if (!token) {
+    res.status(401).send({ erros: "Please authenticate using valid token" });
+  } else {
+    try {
+      const data = jwt.verify(token, "secrete_ecom");
+      req.user = data.user;
+      next();
+    } catch (error) {
+      res
+        .status(401)
+        .send({ errors: "please authenticate using a valid token" });
+    }
+  }
+};
+
+//Cart Data Endpoint
+app.post("/addtocart", fetchUser, async (req, res) => {
+  console.log("Added", req.body.itemId);
+  let userData = await Users.findOne({ _id: req.user.id });
+  userData.cartData[req.body.itemId] += 1;
+  await Users.findOneAndUpdate(
+    { _id: req.user.id },
+    { cartData: userData.cartData }
+  );
+  res.send("Added");
+});
+
+//Cart Remove Endpoint
+app.post("/removefromcart", fetchUser, async (req, res) => {
+  console.log("Removed", req.body.itemId);
+  let userData = await Users.findOne({ _id: req.user.id });
+  if (userData.cartData[req.body.itemId] > 0)
+    userData.cartData[req.body.itemId] -= 1;
+  await Users.findOneAndUpdate(
+    { _id: req.user.id },
+    { cartData: userData.cartData }
+  );
+  res.send("Removed");
+});
+
+//Fetch Cart Data Endpoint
+app.post("/getcart", fetchUser, async (req, res) => {
+  console.log("GetCart");
+  let userData = await Users.findOne({ _id: req.user.id });
+  res.json(userData.cartData);
+});
+
 app.listen(port, (error) => {
   if (!error) {
     console.log("Server Running on Port " + port);
