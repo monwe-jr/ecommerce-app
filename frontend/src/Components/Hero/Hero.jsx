@@ -18,10 +18,10 @@ export const Hero = () => {
 
           <p>The Best!</p>
         </div>
-        <div className="hero-latest-button">
+        <button className="hero-latest-button">
           <div>Latest Products</div>
           <FaArrowRight />
-        </div>
+        </button>
       </div>
       <div className="hero-right">
         <img src={hero_image} alt="" />
