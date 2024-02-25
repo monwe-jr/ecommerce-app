@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, forwardRef } from "react";
 import "./NewArrivals.css";
 import { Item } from "../Item/Item";
 
-export const NewArrivals = () => {
+export const NewArrivals = forwardRef((props, ref) => {
   const [new_arrivals, setNewArrivals] = useState([]);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export const NewArrivals = () => {
   }, []);
 
   return (
-    <div className="new-arrivals">
+    <div className="new-arrivals" ref={ref}>
       <h1>NEW ARRIVALS</h1>
       <hr />
       <div className="arrivals">
@@ -31,4 +31,4 @@ export const NewArrivals = () => {
       </div>
     </div>
   );
-};
+});
