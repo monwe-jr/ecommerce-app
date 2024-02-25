@@ -19,10 +19,15 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="nav-logo">
+      <button
+        className="nav-logo"
+        onClick={() => {
+          window.location.href = "/";
+        }}
+      >
         <img src={logo} alt="" className="logo" />
         <p>GAMEGEAR</p>
-      </div>
+      </button>
       <FaArrowCircleDown
         className="nav-dropdown"
         size={40}
