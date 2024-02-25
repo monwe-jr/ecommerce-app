@@ -13,10 +13,14 @@ export const Footer = () => {
       </div>
       <div className="footer-contact-icons">
         <div className="footer-icons-container">
-          <img src={github_icon} alt="" />
+          <a href="https://github.com/monwe-jr/ecommerce-app">
+            <img src={github_icon} alt="GitHub" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={linkedin_icon} alt="" />
+          <a href="https://www.linkedin.com/in/francis-monwe-674501198/">
+            <img src={linkedin_icon} alt="LinkedIn" />
+          </a>
         </div>
       </div>
     </div>
