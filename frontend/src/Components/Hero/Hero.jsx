@@ -4,7 +4,14 @@ import { FaArrowRight } from "react-icons/fa";
 import level_icon from "../Assets/level-up.png";
 import hero_image from "../Assets/new-arrival.png";
 
-export const Hero = () => {
+export const Hero = ({ newArrivalsRef }) => {
+  const scrollToNewArrivals = () => {
+    newArrivalsRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div className="hero">
       <div className="hero-left">
@@ -15,10 +22,9 @@ export const Hero = () => {
             <p>With </p>
             <img src={level_icon} alt="" />
           </div>
-
           <p>The Best!</p>
         </div>
-        <button className="hero-latest-button">
+        <button className="hero-latest-button" onClick={scrollToNewArrivals}>
           <div>Latest Products</div>
           <FaArrowRight />
         </button>
