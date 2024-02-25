@@ -202,6 +202,14 @@ app.post("/login", async (req, res) => {
   }
 });
 
+//New Arrivals Endpoint
+app.get("/newarrivals", async (req, res) => {
+  let products = await Product.find({});
+  let newarrivals = products.slice(1).slice(-8);
+  console.log("New Arrivals Fetched");
+  res.send(newarrivals);
+});
+
 app.listen(port, (error) => {
   if (!error) {
     console.log("Server Running on Port " + port);
